@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angle Identification Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>What Type of Angle Is This?</h1>
+
+    <div class="game-container">
+        <canvas id="angleCanvas" width="400" height="300"></canvas>
+
+        <div id="feedback" class="feedback">Select an angle type below.</div>
+
+        <div class="controls">
+            <button data-type="acute">Acute</button>
+            <button data-type="right">Right</button>
+            <button data-type="obtuse">Obtuse</button>
+            <button data-type="straight">Straight</button>
+        </div>
+
+        <div class="score-container">
+            Score: <span id="score">0</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
